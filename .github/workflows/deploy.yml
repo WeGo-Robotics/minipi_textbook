@@ -12,7 +12,7 @@
           - uses: actions/checkout@v3
           - uses: actions/setup-node@v3
             with:
-              node-version: 18 # Or your preferred Node.js version
+              node-version: 24 # Or your preferred Node.js version
           - name: Install dependencies
             run: npm install # Or yarn install
           - name: Build VitePress site
