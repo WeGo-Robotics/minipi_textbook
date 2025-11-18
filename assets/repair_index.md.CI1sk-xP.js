@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as r}from"./chunks/framework.e7xVyxua.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"repair/index.md","filePath":"repair/index.md"}'),a={name:"repair/index.md"};function n(i,o,s,c,d,p){return r(),t("div")}const f=e(a,[["render",n]]);export{m as __pageData,f as default};
