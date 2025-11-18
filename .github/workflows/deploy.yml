@@ -3,7 +3,7 @@
     on:
       push:
         branches:
-          - main # Or your main branch
+          - master # Or your main branch
 
     jobs:
       deploy:
