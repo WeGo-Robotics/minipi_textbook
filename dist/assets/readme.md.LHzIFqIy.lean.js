@@ -1,0 +1,1 @@
+import{_ as a,c as n,o as e,ah as i}from"./chunks/framework.e7xVyxua.js";const k=JSON.parse('{"title":"교재 개발 환경 설치법","description":"","frontmatter":{},"headers":[],"relativePath":"readme.md","filePath":"readme.md"}'),p={name:"readme.md"};function l(t,s,r,c,h,d){return e(),n("div",null,[...s[0]||(s[0]=[i("",16)])])}const g=a(p,[["render",l]]);export{k as __pageData,g as default};
