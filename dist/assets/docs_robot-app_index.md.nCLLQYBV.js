@@ -1,1 +1,0 @@
-import{_ as e,c as t,o}from"./chunks/framework.e7xVyxua.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docs/robot-app/index.md","filePath":"docs/robot-app/index.md"}'),a={name:"docs/robot-app/index.md"};function r(n,s,c,d,p,i){return o(),t("div")}const f=e(a,[["render",r]]);export{m as __pageData,f as default};
