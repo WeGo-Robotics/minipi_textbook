@@ -1,14 +1,14 @@
-교재 개발 환경 설치법
-교재 개발 환경
+# 교재 개발 환경 설치법
+## 교재 개발 환경
 
 * Visual Code
 * VitePress
 
 
 
-설치하기
+## 설치하기
 
-Node.js 환경 설치
+### Node.js 환경 설치
 
 ```
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
@@ -18,12 +18,17 @@ nvm current # "v24.11.1"가 출력되어야 합니다.
 npm -v # 11.6.2가 출력되어야 합니다.
 ```
 
-VitePress 프로젝트 초기화
-
+### VitePress 프로젝트 초기화
+```
 npm add -D vitepress@next
 npx vitepress init
+```
+### VitePress 서버 시작
+```
+npm run docs:dev
+```
 
-프로젝트 설정
+### 프로젝트 설정
 ```
 ┌  Welcome to VitePress!
 │
@@ -56,7 +61,7 @@ npx vitepress init
 │
 └  Done! Now run pnpm run docs:dev and start writing.
 ```
-폴더 구조
+### 폴더 구조
 ```
 .
 ├─ docs (프로젝트 루트 폴더)
@@ -67,7 +72,7 @@ npx vitepress init
 │  └─ index.md
 └─ package.json
 ```
-AI 챗봇
+### AI 챗봇
 
 https://docs.biel.ai/installation/vitepress
 https://github.com/aklinker1/vitepress-knowledge?ref=pkgstats.com
