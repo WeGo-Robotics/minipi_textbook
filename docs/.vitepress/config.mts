@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: 'minipi_textbook',
   title: "Mini Pi Textbook",
   description: "ROS부터 강화학습까지",
   head: [
