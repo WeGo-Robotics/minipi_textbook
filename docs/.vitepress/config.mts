@@ -27,7 +27,7 @@ export default defineConfig({
             { text: '개요',           link: '/hardware/' },
             { text: '사양 읽는 방법',   link: '/hardware/spec' },
             { text: '기계 기구부',      link: '/hardware/mech' },
-            { text: '구동계(엑추에이터)', link: '/hardware/power' },
+            { text: '구동계(엑추에이터)', link: '/hardware/servo' },
             { text: '제어 시스템',      link: '/hardware/control' },
             { text: '통신 시스템',      link: '/hardware/comm' },
             { text: '입력 장치(센서)',  link: '/hardware/input' },
@@ -66,7 +66,7 @@ export default defineConfig({
         {
           text: 'Mini Pi 로봇과 AI 심화',
           items: [
-            { text: '개요',          link: '/rl-adv/' },
+            { text: '개요',            link: '/rl-adv/' },
             { text: '보행 강화 학습',    link: '/rl-adv/walk' },
             { text: '영상 모방 학습',    link: '/rl-adv/imtation' },
           ]
@@ -74,11 +74,12 @@ export default defineConfig({
       ],
       '/repair/': [
         {
-          text: 'Mini Pi 로봇의 고장수리',
+          text: 'Mini Pi 로봇의 유지보수',
           items: [
-            { text: '개요',          link: '/repair/' },
-            { text: '오동작 관찰과 원인 분석 방법',    link: '/repair/method' },
-            { text: '오동작 사례 및 해결방법',    link: '/repair/list' },
+            { text: '개요',                     link: '/repair/' },
+            { text: '주기적인 유지보수',  link: '/repair/maintain' },
+            { text: '오동작 관찰과 원인 분석 방법',  link: '/repair/method' },
+            { text: '오동작 사례 및 해결방법',      link: '/repair/list' },
           ]
         }
       ],

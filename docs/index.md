@@ -23,12 +23,12 @@ hero:
       text: AI 강화학습
       link: /rl-adv/
     - theme: alt
-      text: 고장 수리
+      text: 유지보수
       link: /repair/
 
 features:
   - title: Basic
-    details: ROS 기초, 하드웨어, 고장 수리
+    details: ROS 기초, 하드웨어, 유지보수
   - title: Intermediate
     details: 로봇 응용, AI 활용
   - title: Advanced
