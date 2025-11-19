@@ -90,6 +90,7 @@ export default defineConfig({
             { text: '공 추적', link: '/soccer-manual/ball_tracking'},
             { text: '공 골대 넣기', link: '/soccer-manual/ball_goal'},
             { text: 'LLM 사용', link: '/soccer-manual/using_llm'},
+            { text: '웹 GUI 사용', link: 'soccer-manual/web_gui'},
           ]
         }
       ],
