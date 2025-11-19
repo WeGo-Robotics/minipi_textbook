@@ -22,7 +22,7 @@
 
 이미지 토픽을 선택하고 영상을 확인할 수 있습니다.
 
-![LLM chatting](./image/LLM_chat.png)
+![LLM chatting](./image/LLM_chat_2.png)
 
 위와 같이 사용자의 입력에 따라 LLM이 답변을 합니다. 답변 출력까지 5~10초 간의 시간이 발생할 수 있습니다.
 
