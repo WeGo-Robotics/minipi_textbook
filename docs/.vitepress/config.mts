@@ -82,6 +82,17 @@ export default defineConfig({
           ]
         }
       ],
+      '/soccer-manual/': [
+        {
+          text: 'Mini Pi 데모 매뉴얼',
+          items: [
+            { text: '개요', link: '/soccer-manual/'},
+            { text: '공 추적', link: '/soccer-manual/ball_tracking'},
+            { text: '공 골대 넣기', link: '/soccer-manual/ball_goal'},
+            { text: 'LLM 사용', link: '/soccer-manual/using_llm'},
+          ]
+        }
+      ],
     },
 
     socialLinks: [
