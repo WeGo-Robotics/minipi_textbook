@@ -26,12 +26,12 @@ hero:
       text: 유지보수
       link: /repair/
     - theme: alt
-      text: 축구 데모 매뉴얼
-      link: /soccer-manual/
+      text: 데모
+      link: /demo/
 
 features:
   - title: Basic
-    details: ROS 기초, 하드웨어, 유지보수
+    details: ROS 기초, 하드웨어, 유지보수, 데모
   - title: Intermediate
     details: 로봇 응용, AI 활용
   - title: Advanced

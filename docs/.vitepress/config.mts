@@ -84,15 +84,15 @@ export default defineConfig({
           ]
         }
       ],
-      '/soccer-manual/': [
+      '/demo/': [
         {
           text: 'Mini Pi 데모 매뉴얼',
           items: [
-            { text: '개요', link: '/soccer-manual/'},
-            { text: '공 추적', link: '/soccer-manual/ball_tracking'},
-            { text: '공 골대 넣기', link: '/soccer-manual/ball_goal'},
-            { text: 'LLM 사용', link: '/soccer-manual/using_llm'},
-            { text: '웹 GUI 사용', link: 'soccer-manual/web_gui'},
+            { text: '개요', link: '/demo/'},
+            { text: '공 추적', link: '/demo/ball_tracking'},
+            { text: '공 골대 넣기', link: '/demo/ball_goal'},
+            { text: 'LLM 사용', link: '/demo/using_llm'},
+            { text: '웹 GUI 사용', link: '/demo/web_gui'},
           ]
         }
       ],

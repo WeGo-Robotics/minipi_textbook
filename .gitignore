@@ -1,8 +1,8 @@
 # VitePress build output
-.vitepress/dist/
+docs/.vitepress/dist/
 
 # VitePress cache
-.vitepress/cache/
+docs/.vitepress/cache/
 
 # Node modules
 node_modules/
