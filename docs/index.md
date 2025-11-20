@@ -25,6 +25,9 @@ hero:
     - theme: alt
       text: 유지보수
       link: /repair/
+    - theme: alt
+      text: 축구 데모 매뉴얼
+      link: /soccer-manual/
 
 features:
   - title: Basic
