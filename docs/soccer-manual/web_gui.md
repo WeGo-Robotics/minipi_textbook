@@ -10,6 +10,9 @@ nomachine이나 HDMI, ssh 접속 없이 같은 네트워크를 사용한다면 �
 
 (IP 설정, port 설정 방법 추가, startup, sh 파일 수정)
 
+mini pi는 ros1으로 사용하여 rosbridge, roslibpy를 사용할 필요가 없지만, 향후 ros2를 사용할 때를 대비하여 ros버전에 관계 없이 사용하고자 한다.
+향후 로봇에서 rosbridge를, 로봇 외의 pc에서 web gui를 구동할 수 있다.
+
 #### GUI 메인
 
 아래와 같이 GUI가 보인다면 접속에 성공한 것입니다.
