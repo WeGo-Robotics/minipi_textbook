@@ -4,30 +4,30 @@
 ### 바로 사용하기 (nomachine을 이용한 GUI)
 새 터미널을 켜거나, 기존 터미널에서 `source ~/.bashrc`를 입력하면 아래 사진과 같이 단축어가 나옵니다.
 
-![start](./image/GUI_start.png)
+<img src="./image/GUI_start.png" alt="초기 단축" width="100%" style="display: block; margin: 0 auto;">
 
-차례대로 `soccer_ws`, `roboworld_gui`를 입력하면 GUI 창이 나타납니다.
+차례대로 `soccer_ws`, `roboworld_gui`를 입력하세요.
 
-![start2](./image/GUI_start2.png)
+<img src="./image/GUI_start2.png" alt="gui 실행" width="100%" style="display: block; margin: 0 auto;">
 
-![GUI_main](./image/GUI_main.png)
+아래와 같이 GUI 창이 나타납니다.
+
+<img src="./image/GUI_main.png" alt="gui 메인" width="100%" style="display: block; margin: 0 auto;">
 
 아래처럼 표시된 항목을 재생하십시오.
 
-![twist_mux](./image/BallTracking.png)
+twist_mux는 조이스틱, 기타 코드 등에서 내보내는 로봇 조종 명령 간 우선순위를 결정합니다.
+<img src="./image/BallTracking.png" alt="gui 설정" width="50%" style="display: block; margin: 0 auto;">
 
-![avoid_wall, ball_tracking](./image/BallTracking_2.png)
-
+avoid_wall은 근처의 벽이나 장애물을 마주쳤을 때 회전하도록 하며, mux_discrete_track_efficient가 공을 추적하도록 합니다.
+<img src="./image/BallTracking_2.png" alt="gui 설정" width="50%" style="display: block; margin: 0 auto;">
 
 ### 바로 사용하기 (웹 GUI 접속)
 기본적으로, 로봇을 켜거나 다시 로그인 할 때 자동으로 웹 GUI에 접속 할 수 있는 설정이 완료됩니다.
 
-마찬가지로 아래처럼 표시된 항목을 재생하십시오.
+위에서와 같은 항목을 재생하십시오.
 
-![twist_mux](./image/BallTracking_web.png)
-
-![avoid_wall, ball_tracking](./image/BallTracking_2_web.png)
-
+<img src="./image/WebGUI_select.png" alt="웹 설정" width="100%" style="display: block; margin: 0 auto;">
 
 ---
 ## 커스텀환경에서 공 추적하기
@@ -81,8 +81,8 @@ $ yolo export model=(변경할 pt 모델) format=rknn
 
 아래 사진과 같이 soccer_ws/src/yolo11_detect_pkg/config/rknn에 저장합니다.
 
-![rknn file dir](./image/rknn_file.png)
+<img src="./image/rknn_file.png" alt="파일 저장 경로" width="30%" style="display: block; margin: 0 auto;">
 
 이후, yolo11_detect_pkg의 yolo_detect_efficient_d435.launch에서 rknn_file과 yaml_file의 기본 경로를 변경합니다.
 
-![launch rknn name](./image/rknn_launch.png)
+<img src="./image/rknn_launch.png" alt="launch 파일 설정" width="100%" style="display: block; margin: 0 auto;">
